@@ -456,9 +456,9 @@ ul {
   display: flex;
   gap: 28px;
 }
-/* .subscribe-form-label {
+.subscribe-form-label {
   gap: 28px;
-} */
+}
 .form-label-input {
   width: 264px;
   height: 40px;
