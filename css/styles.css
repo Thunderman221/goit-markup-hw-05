@@ -454,10 +454,11 @@ ul {
 }
 .subscribe-form {
   display: flex;
-}
-.subscribe-form-label {
   gap: 28px;
 }
+/* .subscribe-form-label {
+  gap: 28px;
+} */
 .form-label-input {
   width: 264px;
   height: 40px;
@@ -489,7 +490,7 @@ ul {
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
-  background-repeat: 4px;
+  border-radius: 4px;
 }
 .subscribe-button-svg {
   margin-left: 16px;
