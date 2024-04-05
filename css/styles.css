@@ -441,9 +441,9 @@ ul {
 .sm-svg {
   fill: #f4f4fd;
 }
-/* .subscribe-contaienr {
-
-} */
+.subscribe-contaienr {
+  margin-left: 80px;
+}
 .subscribe-paragraph {
   margin-bottom: 16px;
   font-weight: 500;
