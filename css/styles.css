@@ -546,8 +546,8 @@ ul {
 }
 .mw-btn {
   position: absolute;
-  top: 24px;
-  right: 24px;
+  top: 8px;
+  right: 20px;
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -577,6 +577,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
+  margin-top: 16px;
 }
 /* .mw-form {
 } */
