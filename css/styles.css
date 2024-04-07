@@ -4,6 +4,11 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+:root {
+  --background-color-checked: #404bbf;
+  --border-none: none;
+  --fill-color: #f4f4fd;
+}
 img {
   display: block;
 }
@@ -672,10 +677,15 @@ ul {
 /* .label-span-svg{
 
 } */
-.checkbox-input:checked + .label-privacy .label-span {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
+.checkbox-input:checked ~ .label-privacy .label-span {
+  background-color: var(--background-color-checked);
+}
+.checkbox-input:checked ~ .label-privacy .label-span {
+  border: var(--border-none);
+}
+
+.checkbox-input:checked ~ .label-privacy .label-span .label-span-svg use {
+  fill: var(--fill-color);
 }
 .label-privacy-ref {
   color: #4d5ae5;
