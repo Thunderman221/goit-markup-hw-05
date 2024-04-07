@@ -570,8 +570,8 @@ ul {
 .close-btn-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close-btn-svg:hover,
-.close-btn-svg:focus {
+.mw-btn:hover .close-btn-svg use,
+.mw-btn:focus .close-btn-svg use {
   fill: #ffffff;
 }
 .mw-paragraph {
