@@ -576,8 +576,8 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-btn:focus,
-.form-btn:hover {
+.mw-btn:hover,
+.mw-btn:focus {
   background-color: #404bbf;
   border: none;
 }
@@ -718,6 +718,6 @@ ul {
   border-radius: 4px;
 }
 .form-btn:focus,
-.form-btn :hover {
+.form-btn:hover {
   background-color: #404bbf;
 }
